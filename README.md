@@ -1,3 +1,35 @@
+https://github.com/rogerio-pereira/Curso-Udemy-Facebook-Clone-with-Laravel-TDD-Vue-Tailwind-CSS.git
+
+Project
+-------
+Laravel + Vue + Tailwind CSS
+
+composer update
+npm install
+
+php artisan migrate
+php artisan db:seed
+php artisan passport:install
+
+php artisan storage:link
+
+php artisan serve
+npm run watch
+
+Database
+--------
+MySQL
+
+เจอ Error ตอน  Migrate
+Syntax error or access violation: 1115 Unknown character set: utf8mb4
+
+วิธีแก้ไข
+Go to config/database.php and replace these two lines with these
+
+'charset' => 'utf8', 'collation' => 'utf8_unicode_ci',
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
